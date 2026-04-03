@@ -32,25 +32,30 @@ A backend application built using **FastAPI** to manage employee attendance, lea
 ---
 
 ## 📂 Project Structure
+## 📁 Project Structure
+
+```bash
 hr_attendance_system/
 │
 ├── app/
-│ ├── main.py
-│ ├── database.py
-│ ├── models.py
-│ ├── schemas.py
-│ ├── validators.py
-│ ├── crud.py
-│ └── routes/
-│ ├── auth.py
-│ ├── attendance.py
-│ ├── leave.py
-│ └── reports.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── validators.py
+│   ├── crud.py
+│   │
+│   └── routes/
+│       ├── auth.py
+│       ├── attendance.py
+│       ├── leave.py
+│       └── reports.py
 │
 ├── test_api.py
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
+```
 
 ---
 
