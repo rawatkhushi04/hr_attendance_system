@@ -32,7 +32,7 @@ A backend application built using **FastAPI** to manage employee attendance, lea
 ---
 
 ## 📂 Project Structure
-## 📁 Project Structure
+
 
 ```bash
 hr_attendance_system/
